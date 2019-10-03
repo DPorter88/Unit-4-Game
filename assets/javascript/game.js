@@ -23,7 +23,7 @@ var button4RandomNumber = generateRandomNumber();
 
 $("#button-1").on("click", function(){
     totalCount += button1RandomNumber
-    // document.getElementById("totalScore").innerHTML = totalCount;
+    
     totalDisplay();
     checkIfGameOver();
     
@@ -99,5 +99,5 @@ else if (totalCount > tarNum) {
 
 
 //Psuedo code
-//random result: 4 crystals
-//crystal needs to be random number: 1-12
+// the result wil be 4 crystals, and th echoices would have to be between the
+// numbers 1 and 12
